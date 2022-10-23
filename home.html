@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class='container'>
+			<div class='jumbotron'>
+				<h2>QuizFaber Node.js</h2>
+				<p>Application for store quiz results.</p>
+			</div>
+			<div class="alert alert-success">Server up and running</div>
+			{ERR_CONFIG}
+			
+			<div class="well well-lg">
+				<p><b>Node.js version</b> : {NODE_VERS}</p>
+				<p><b>Package version</b> : {PKG_VERS}</p>
+				<p><b>QF database version</b> : {DB_VERS} </p>
+				<p><b>QF actual database size</b> : {DB_SIZE}</p>
+			</div>
+			
+			<div class="alert alert-info">
+				This is a <b>QuizFaber</b> project. More info at : <a href="https://www.quizfaber.com" target="qf">www.quizfaber.com</a>
+			</div>
+		</div>
+	</body>
+	
+</html>

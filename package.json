@@ -1,0 +1,18 @@
+{
+  "name": "qmake-nodejs",
+  "version": "1.0.0",
+  "description": "Qmake-NodeJS",
+  "main": "quizfaber.js",
+  "author": "Luca Galli <info@quizfaber.com> (http://www.quizfaber.com)",
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "start": "node quizfaber.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.3"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
